@@ -8,7 +8,7 @@ class MockUserService {
   user = { name: 'Test User' };
 }
 
-fdescribe('WelcomeComponent (class only)', () => {
+describe('WelcomeComponent (class only)', () => {
   let comp: WelcomeComponent;
   let userService: UserService;
 
